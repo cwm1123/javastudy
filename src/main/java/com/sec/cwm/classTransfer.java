@@ -1,3 +1,4 @@
+//将class转换为字节
 package com.sec.cwm;
 
 import java.io.ByteArrayOutputStream;
@@ -20,6 +21,11 @@ public class classTransfer extends ClassLoader{
     /**
      * loadClassData,将class文件读取为byte[]数组。
      * @param target 目标class文件路径
+     * @return
+     */
+    /**
+     * 转换为字节码
+     * @param target
      * @return
      */
     private byte[] loadClassData(String target) {

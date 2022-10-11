@@ -22,8 +22,8 @@ public class simplereflect {
         Object runtimeInstance1 = constructor1.newInstance();
 
 // 获取Runtime的exec(String cmd)方法
-        Method runtimeMethod = runtimeClass1.getMethod("exec", String.class);
-        Method[] methods=runtimeClass1.getDeclaredMethods();
+        Method runtimeMethod = runtimeClass1.getMethod("exec",String.class);
+//        Method[] methods=runtimeClass1.getDeclaredMethods();
 
 //获取hackjava的amd变量
         Field fields=runtimeClass2.getDeclaredField("amd");
