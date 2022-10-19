@@ -4,8 +4,8 @@ package com.sec.cwm;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import static com.sec.cwm.classTransfer.bytes;
-public class testcrossclassloader {
-    public static String testClassName ="com.sec.cwm.testjavaclass";
+public class testCrossClassloader {
+    public static String testClassName ="com.sec.cwm.testPrivateClass";
     public static byte[] testClassByte =bytes;
     public static class ClassloaderA extends ClassLoader{
         public ClassloaderA(ClassLoader parent){
@@ -46,7 +46,7 @@ public class testcrossclassloader {
         Object instanceA = aClass.newInstance();
 
         // 获取hello方法
-        Method helloMethod = aClass.getMethod("test");
+        Method helloMethod = aClass.getMethod("hello");
 
         // 调用hello方法
         String result = (String) helloMethod.invoke(instanceA);

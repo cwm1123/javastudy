@@ -62,12 +62,13 @@ public class classTransfer extends ClassLoader{
     }
     // 以下代码会调用自定义的类加载器加载TestCode15
     public static classTransfer loader1=new classTransfer("loader1");
-    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testjavaclass.class";
+//    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testjavaclass.class";
+    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testPrivateClass.class";
     public static byte[] bytes=loader1.loadClassData(target);
     public static void main(String[] args) throws Exception {
 //        classTransfer loader1 = new classTransfer("loader1");
 //        String target = "C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testjavaclass.class";
-        String className = "com.sec.cwm.testjavaclass";
+        String className = "com.sec.cwm.testPrivateClass";
         Class clazz = loader1.findClass(target, className);
         byte[] bytes=loader1.loadClassData(target);
         System.out.println(clazz.getClassLoader()); // cn.com.ccxi.jvm.test.TestCode16@773de2bd

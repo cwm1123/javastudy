@@ -3,7 +3,7 @@ package com.sec.cwm;
 
 import java.io.*;
 
-public class simplereadfile {
+public class simpleReadfile {
     public static void main(String[] args) throws IOException {
         File file = new File("C:\\Users\\CWM\\IdeaProjects\\test\\src\\main\\java\\com\\sec\\cwm\\hackjava.class");
 

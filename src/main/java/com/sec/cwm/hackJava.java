@@ -2,7 +2,7 @@
 package com.sec.cwm;
 
 import java.io.IOException;
-public class hackjava {
+public class hackJava {
 
     /**
      * Creator: yz

@@ -3,14 +3,14 @@ package com.sec.cwm;
 
 import java.lang.reflect.Method;
 
-public class testclassloader extends  ClassLoader{
+public class testClassloader extends  ClassLoader{
         public static void  main(String args[]) {
-            testjavaclass t=new testjavaclass();
+            testJavaClass t=new testJavaClass();
             String s=t.test();
             System.out.println(s);
-            testclassloader loader=new testclassloader();
+            testClassloader loader=new testClassloader();
             try{
-                Class testclass=loader.loadClass("com.sec.cwm.testjavaclass");
+                Class testclass=loader.loadClass("com.sec.cwm.testJavaClass");
                 Object testInstance = testclass.newInstance();
                 Method method=testInstance.getClass().getMethod("test");
                 String str=(String) method.invoke(testInstance);

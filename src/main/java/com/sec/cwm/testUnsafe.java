@@ -1,14 +1,17 @@
 //Not effective in Java8+
 package com.sec.cwm;
 
+
+
 import sun.misc.Unsafe;
+
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-public class testunsafe {
+public class testUnsafe {
 
     public static void main(String args[]) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchFieldException {
         Class unsafeClass=Class.forName("sun.misc.Unsafe");
@@ -26,13 +29,15 @@ public class testunsafe {
         //获取allocateInstance方法
         Method[] unsafemethods=unsafeClass.getDeclaredMethods();
         Field[] unsafeFields=unsafeClass.getDeclaredFields();
-        for(Method method:unsafemethods) {
-            System.out.println(method);
-        }
+//        for(Method method:unsafemethods) {
+//            System.out.println(method);
+//        }
 //        for(Field field:unsafeFields) {
 //            System.out.println(field);
 //        }
 //        Process process=(Process) unsafemethod.invoke(unsafeObj,"testUnsafe");
         testPrivateClass tpc=(testPrivateClass) unsafe1.allocateInstance(testPrivateClass.class);
+//        testPrivateClass tpc=(testPrivateClass) unsafemethod.invoke(unsafeObj,testPrivateClass.class);
+        tpc.hello();
     }
 }
