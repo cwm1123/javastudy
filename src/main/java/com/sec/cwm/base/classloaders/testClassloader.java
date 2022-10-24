@@ -1,5 +1,7 @@
 //classloader调用类
-package com.sec.cwm;
+package com.sec.cwm.base.classloaders;
+
+import com.sec.cwm.base.testclass.testJavaClass;
 
 import java.lang.reflect.Method;
 
@@ -10,7 +12,7 @@ public class testClassloader extends  ClassLoader{
             System.out.println(s);
             testClassloader loader=new testClassloader();
             try{
-                Class testclass=loader.loadClass("com.sec.cwm.testJavaClass");
+                Class testclass=loader.loadClass("com.sec.cwm.base.testclass.testJavaClass");
                 Object testInstance = testclass.newInstance();
                 Method method=testInstance.getClass().getMethod("test");
                 String str=(String) method.invoke(testInstance);

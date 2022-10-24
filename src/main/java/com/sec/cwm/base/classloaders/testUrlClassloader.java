@@ -1,4 +1,4 @@
-package com.sec.cwm;
+package com.sec.cwm.base.classloaders;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.net.URL;

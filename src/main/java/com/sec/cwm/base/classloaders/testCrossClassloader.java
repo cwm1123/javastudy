@@ -1,11 +1,11 @@
 //classloader字节码转换成类
-package com.sec.cwm;
+package com.sec.cwm.base.classloaders;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import static com.sec.cwm.classTransfer.bytes;
 public class testCrossClassloader {
-    public static String testClassName ="com.sec.cwm.testPrivateClass";
+    public static String testClassName ="com.sec.cwm.base.testclass.testPrivateClass";
     public static byte[] testClassByte =bytes;
     public static class ClassloaderA extends ClassLoader{
         public ClassloaderA(ClassLoader parent){

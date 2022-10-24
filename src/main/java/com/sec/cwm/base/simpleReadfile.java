@@ -1,5 +1,5 @@
 //读文件
-package com.sec.cwm;
+package com.sec.cwm.base;
 
 import java.io.*;
 

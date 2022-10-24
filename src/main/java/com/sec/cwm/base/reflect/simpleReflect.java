@@ -1,4 +1,4 @@
-package com.sec.cwm;
+package com.sec.cwm.base.reflect;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;

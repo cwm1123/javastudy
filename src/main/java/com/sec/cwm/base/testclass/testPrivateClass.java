@@ -1,4 +1,4 @@
-package com.sec.cwm;
+package com.sec.cwm.base.testclass;
 
 public class testPrivateClass {
     private testPrivateClass(){

@@ -1,4 +1,4 @@
-package com.sec.cwm;
+package com.sec.cwm.base.testclass;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import sun.net.www.protocol.http.HttpURLConnection;
 
 public class testURLClass {
     public static void main(String[] args) throws IOException {
-        URL u = new URL("http://dir/sdsdsdsd/c$" );
+        URL u = new URL("http://172.20.153.162" );
         URLConnection urlConnection = u.openConnection();
         URLConnection httpUrl = urlConnection;
         BufferedReader in = new BufferedReader(new InputStreamReader(httpUrl.getInputStream()));

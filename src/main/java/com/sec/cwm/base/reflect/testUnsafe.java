@@ -1,8 +1,9 @@
 //Not effective in Java8+
-package com.sec.cwm;
+package com.sec.cwm.base.reflect;
 
 
 
+import com.sec.cwm.base.testclass.testPrivateClass;
 import sun.misc.Unsafe;
 
 
