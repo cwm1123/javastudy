@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 public class classTransfer extends ClassLoader{
-    private String clName;
+    private final String clName;
     // 构造函数1：不指定父类加载器，仅指定自定义类加载器的名称
     public classTransfer(String clName) {
         super();
@@ -62,13 +62,13 @@ public class classTransfer extends ClassLoader{
     }
     // 以下代码会调用自定义的类加载器加载TestCode15
     public static classTransfer loader1=new classTransfer("loader1");
-//    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testjavaclass.class";
-    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testPrivateClass.class";
+    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testJavaClass.class";
+//    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testPrivateClass.class";
     public static byte[] bytes=loader1.loadClassData(target);
     public static void main(String[] args) throws Exception {
 //        classTransfer loader1 = new classTransfer("loader1");
 //        String target = "C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testjavaclass.class";
-        String className = "com.sec.cwm.testPrivateClass";
+        String className = "com.sec.cwm.testJavaClass";
         Class clazz = loader1.findClass(target, className);
         byte[] bytes=loader1.loadClassData(target);
         System.out.println(clazz.getClassLoader()); // cn.com.ccxi.jvm.test.TestCode16@773de2bd
