@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="n1ctftest">
+    <output-path>$PROJECT_DIR$/out/artifacts/da6bd9335264416df6b7d202b06a8b1f_ROOT</output-path>
+    <root id="root" />
+  </artifact>
+</component>
