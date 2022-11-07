@@ -37,8 +37,8 @@ public class testUnsafe {
 //            System.out.println(field);
 //        }
 //        Process process=(Process) unsafemethod.invoke(unsafeObj,"testUnsafe");
-        testPrivateClass tpc=(testPrivateClass) unsafe1.allocateInstance(testPrivateClass.class);
-//        testPrivateClass tpc=(testPrivateClass) unsafemethod.invoke(unsafeObj,testPrivateClass.class);
+//        testPrivateClass tpc=(testPrivateClass) unsafe1.allocateInstance(testPrivateClass.class);
+        testPrivateClass tpc=(testPrivateClass) unsafemethod.invoke(unsafeObj,testPrivateClass.class);
         tpc.hello();
     }
 }
