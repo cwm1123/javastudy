@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="cmd">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/src/main/java/com/sec/cwm/cmd.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -5,6 +5,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.util.Arrays;
 
 public class classTransfer extends ClassLoader{
     private final String clName;
@@ -61,10 +62,10 @@ public class classTransfer extends ClassLoader{
         return defineClass(className, bytes, 0, bytes.length);
     }
     // 以下代码会调用自定义的类加载器加载TestCode15
-    public static String className = "com.sec.cwm.base.testclass.testJavaClass";
+    public static String className = "com.sec.cwm.base.testclass.testPrivateClass";
     public static classTransfer loader1=new classTransfer("loader1");
-    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\base\\testclass\\testJavaClass.class";
-//    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\testPrivateClass.class";
+//    public static String target="C:\\Users\\CWM\\IdeaProjects\\test\\target\\classes\\com\\sec\\cwm\\base\\testclass\\testJavaClass.class";
+    public static String target="C:\\Users\\27709\\Desktop\\Tools&Games\\ctf\\web\\环境\\javastudy\\target\\classes\\com\\sec\\cwm\\base\\testclass\\testPrivateClass.class";
     public static byte[] bytes=loader1.loadClassData(target);
     public static void main(String[] args) throws Exception {
 //        classTransfer loader1 = new classTransfer("loader1");
@@ -72,6 +73,7 @@ public class classTransfer extends ClassLoader{
 
         Class clazz = loader1.findClass(target, className);
         byte[] bytes=loader1.loadClassData(target);
+        System.out.println(Arrays.toString(bytes));
         System.out.println(clazz.getClassLoader()); // cn.com.ccxi.jvm.test.TestCode16@773de2bd
     }
 }

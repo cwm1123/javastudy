@@ -1,6 +1,7 @@
 package com.sec.cwm.base.serialize;
 
 import java.io.*;
+import java.lang.reflect.Constructor;
 import java.util.Arrays;
 
 public class testDeserialize implements Serializable {
@@ -68,6 +69,10 @@ public class testDeserialize implements Serializable {
             testDeserialize td=new testDeserialize();
             td.setUsername("cwm");
             td.setEmail("2770976250@qq.com");
+//            Class testPrivateClass1=Class.forName("com.sec.cwm.base.testclass.testPrivateClass");
+//            Constructor tpcConstructor=testPrivateClass1.getDeclaredConstructor();
+//            tpcConstructor.setAccessible(true);
+//            Object td=tpcConstructor.newInstance();
             // 创建Java对象序列化输出流对象
             ObjectOutputStream out=new ObjectOutputStream(baos);
             //序列化类
