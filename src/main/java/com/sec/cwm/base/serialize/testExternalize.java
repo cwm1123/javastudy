@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
-public class testExternalize implements Externalizable {
+public class  testExternalize implements Externalizable {
     private String username;
     private String email;
     public void setUsername(String getusername){

@@ -18,7 +18,7 @@ public class testReflectFactory {
             // 实例化testJavaClass对象
             testJavaClass tjc=(testJavaClass) constructor.newInstance();
             tjc.hello();
-            System.out.println(constructor.newInstance());
+            System.out.println(tjc);
         } catch (Exception e) {
             e.printStackTrace();
         }

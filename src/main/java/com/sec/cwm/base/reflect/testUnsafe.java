@@ -24,12 +24,14 @@ public class testUnsafe {
         Object unsafeObj=unsafeConstructor.newInstance();
         Unsafe unsafe1=(Unsafe) unsafeConstructor.newInstance();
         //Unsafe unsafe=new Unsafe();
+        testPrivateClass newclass=(testPrivateClass)unsafe1.allocateInstance(testPrivateClass.class);
+        newclass.hello();
         Method unsafemethod=unsafeClass.getMethod("allocateInstance",Class.class);
         Field unsafeField=unsafeClass.getDeclaredField("theUnsafe");
         unsafeField.setAccessible(true);
         //获取allocateInstance方法
-        Method[] unsafemethods=unsafeClass.getDeclaredMethods();
-        Field[] unsafeFields=unsafeClass.getDeclaredFields();
+//        Method[] unsafemethods=unsafeClass.getDeclaredMethods();
+//        Field[] unsafeFields=unsafeClass.getDeclaredFields();
 //        for(Method method:unsafemethods) {
 //            System.out.println(method);
 //        }
