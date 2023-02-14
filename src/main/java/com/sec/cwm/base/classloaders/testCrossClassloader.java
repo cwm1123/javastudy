@@ -1,6 +1,7 @@
 //classloader字节码转换成类
 package com.sec.cwm.base.classloaders;
 
+import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import static com.sec.cwm.classTransfer.bytes;
@@ -44,7 +45,9 @@ public class testCrossClassloader {
         }
 
         // 创建类实例
-        Object instanceA = aClass.newInstance();
+        Constructor aClassConstructor=aClass.getDeclaredConstructor();
+        aClassConstructor.setAccessible(true);
+        Object instanceA = aClassConstructor.newInstance();
 
         // 获取hello方法
         Method helloMethod = aClass.getMethod("hello");

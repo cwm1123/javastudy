@@ -9,26 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="seventh commit">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/DNSContextFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/rmi/RMITestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/rmi/RmiServerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/rmi/testRmiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/rmi/testVulnRmi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/rmi/tetRmi.java" afterDir="false" />
+    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="eighth commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/DNS2RMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/LazyMapChainTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/classloaders/testClassloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/classloaders/testClassloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/classloaders/testCrossClassloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/classloaders/testCrossClassloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/testDeserialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/testDeserialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/testReflectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/testReflectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/classTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/classTransfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testClassloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testClassloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/DNSContextFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/DNSContextFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/UnsafeChainTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/UnsafeChainTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNSContextFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNSContextFactoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/UnsafeChainTrans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/UnsafeChainTrans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testDeserialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testDeserialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/classTransfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/classTransfer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -80,22 +76,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.testCrossClassloader">
-    <configuration name="DNSContextFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.DNSContextFactoryTest" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sec.cwm.base.serialize" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.LazyMapChainTrans">
+    <configuration name="DNS2RMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.DNS2RMI" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -107,12 +109,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="classTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.classTransfer" />
+    <configuration name="LazyMapChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.LazyMapChainTrans" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.serialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +124,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testClassloader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.classloaders.testClassloader" />
+    <configuration name="NormalChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.NormalChainTrans" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.base.classloaders.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.serialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testCrossClassloader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.classloaders.testCrossClassloader" />
+    <configuration name="RmiServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.rmi.RmiServerTest" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.base.classloaders.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.rmi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testDeserialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.testDeserialize" />
+    <configuration name="UnsafeChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.UnsafeChainTrans" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -272,19 +278,19 @@
     <list>
       <item itemvalue="Maven.test" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.58" />
-      <item itemvalue="应用程序.classTransfer" />
-      <item itemvalue="应用程序.testClassloader" />
-      <item itemvalue="应用程序.testCrossClassloader" />
-      <item itemvalue="应用程序.testDeserialize" />
-      <item itemvalue="应用程序.DNSContextFactoryTest" />
+      <item itemvalue="应用程序.LazyMapChainTrans" />
+      <item itemvalue="应用程序.DNS2RMI" />
+      <item itemvalue="应用程序.RmiServerTest" />
+      <item itemvalue="应用程序.NormalChainTrans" />
+      <item itemvalue="应用程序.UnsafeChainTrans" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.testCrossClassloader" />
-        <item itemvalue="应用程序.classTransfer" />
-        <item itemvalue="应用程序.testDeserialize" />
-        <item itemvalue="应用程序.testClassloader" />
-        <item itemvalue="应用程序.DNSContextFactoryTest" />
+        <item itemvalue="应用程序.LazyMapChainTrans" />
+        <item itemvalue="应用程序.NormalChainTrans" />
+        <item itemvalue="应用程序.UnsafeChainTrans" />
+        <item itemvalue="应用程序.DNS2RMI" />
+        <item itemvalue="应用程序.RmiServerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +316,12 @@
       <workItem from="1670900622346" duration="6243000" />
       <workItem from="1671164005364" duration="1073000" />
       <workItem from="1671257842047" duration="1015000" />
-      <workItem from="1671261647720" duration="2827000" />
+      <workItem from="1671261647720" duration="6430000" />
+      <workItem from="1671289662769" duration="1498000" />
+      <workItem from="1671366899559" duration="594000" />
+      <workItem from="1671504159149" duration="1946000" />
+      <workItem from="1676179860509" duration="15284000" />
+      <workItem from="1676353572443" duration="4444000" />
     </task>
     <task id="LOCAL-00001" summary="seventh commit">
       <created>1670140717177</created>
@@ -319,7 +330,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670140717177</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="eighth commit">
+      <created>1671264513603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671264513603</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eighth commit">
+      <created>1671264563172</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671264563172</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +363,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="seventh commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="seventh commit" />
+    <MESSAGE value="eighth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="eighth commit" />
   </component>
 </project>

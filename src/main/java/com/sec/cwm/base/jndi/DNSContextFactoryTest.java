@@ -23,11 +23,11 @@ public class DNSContextFactoryTest {
             DirContext context = new InitialDirContext(env);
 
             // 获取DNS解析记录测试
-            Attributes attrs1 = context.getAttributes("baIDU.com", new String[]{"A"});
-            Attributes attrs2 = context.getAttributes("qq.com", new String[]{"A"});
+            Attributes attrs1 = context.getAttributes("baidu.com");
+//            Attributes attrs2 = context.getAttributes("qq.com");
 
             System.out.println(attrs1);
-            System.out.println(attrs2);
+//            System.out.println(attrs2);
         } catch (NamingException e) {
             e.printStackTrace();
         }
