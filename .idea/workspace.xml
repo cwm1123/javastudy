@@ -9,21 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="eighth commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/DNS2RMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/LazyMapChainTrans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="tenth commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/Calc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/JNDIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/LDAPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/RMI_JNDI_Inject_Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/classloaders/testCrossClassloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/classloaders/testCrossClassloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/DNSContextFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/DNSContextFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/UnsafeChainTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/UnsafeChainTrans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNSContextFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNSContextFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/UnsafeChainTrans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/UnsafeChainTrans.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +70,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDK&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
@@ -91,13 +89,16 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\27709\Desktop\Tools&amp;Games\ctf\web\环境\javastudy\src\main\java\com\sec\cwm\base" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sec.cwm.base.serialize" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LazyMapChainTrans">
-    <configuration name="DNS2RMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.DNS2RMI" />
+  <component name="RunManager" selected="应用程序.JNDIClient">
+    <configuration name="JNDIClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.JNDIClient" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -109,14 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyMapChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.LazyMapChainTrans" />
+    <configuration name="LDAPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.LDAPServer" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.base.serialize.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.jndi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RmiServerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.rmi.RmiServerTest" />
+    <configuration name="RMI_JNDI_Inject_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.RMI_JNDI_Inject_Server" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.base.rmi.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.jndi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,8 +151,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnsafeChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.UnsafeChainTrans" />
+    <configuration name="highJDK8ChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.highJDK8ChainTrans" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -278,19 +279,19 @@
     <list>
       <item itemvalue="Maven.test" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.58" />
-      <item itemvalue="应用程序.LazyMapChainTrans" />
-      <item itemvalue="应用程序.DNS2RMI" />
-      <item itemvalue="应用程序.RmiServerTest" />
+      <item itemvalue="应用程序.JNDIClient" />
+      <item itemvalue="应用程序.LDAPServer" />
+      <item itemvalue="应用程序.RMI_JNDI_Inject_Server" />
+      <item itemvalue="应用程序.highJDK8ChainTrans" />
       <item itemvalue="应用程序.NormalChainTrans" />
-      <item itemvalue="应用程序.UnsafeChainTrans" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.LazyMapChainTrans" />
+        <item itemvalue="应用程序.JNDIClient" />
+        <item itemvalue="应用程序.LDAPServer" />
+        <item itemvalue="应用程序.RMI_JNDI_Inject_Server" />
+        <item itemvalue="应用程序.highJDK8ChainTrans" />
         <item itemvalue="应用程序.NormalChainTrans" />
-        <item itemvalue="应用程序.UnsafeChainTrans" />
-        <item itemvalue="应用程序.DNS2RMI" />
-        <item itemvalue="应用程序.RmiServerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +322,15 @@
       <workItem from="1671366899559" duration="594000" />
       <workItem from="1671504159149" duration="1946000" />
       <workItem from="1676179860509" duration="15284000" />
-      <workItem from="1676353572443" duration="4444000" />
+      <workItem from="1676353572443" duration="6627000" />
+      <workItem from="1677915089316" duration="2130000" />
+      <workItem from="1678363345084" duration="2117000" />
+      <workItem from="1679061843698" duration="2104000" />
+      <workItem from="1679178708738" duration="4309000" />
+      <workItem from="1679187522466" duration="5644000" />
+      <workItem from="1679287243317" duration="12770000" />
+      <workItem from="1679366626222" duration="3803000" />
+      <workItem from="1679472217722" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="seventh commit">
       <created>1670140717177</created>
@@ -344,7 +353,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671264563172</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nineth commit">
+      <created>1676371036950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676371036950</updated>
+    </task>
+    <task id="LOCAL-00005" summary="tenth commit">
+      <created>1679222864664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679222864664</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,8 +385,104 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="seventh commit" />
     <MESSAGE value="eighth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="eighth commit" />
+    <MESSAGE value="nineth commit" />
+    <MESSAGE value="tenth commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tenth commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/LazyMapChainTrans.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/LazyMapChainTrans.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class</url>
+          <line>58</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class</url>
+          <line>341</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar!/org/apache/commons/collections/map/LazyMap.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar!/org/apache/commons/collections/map/LazyMap.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar!/org/apache/commons/collections/keyvalue/TiedMapEntry.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar!/org/apache/commons/collections/functors/InvokerTransformer.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class</url>
+          <line>42</line>
+          <properties class="sun.reflect.annotation.AnnotationInvocationHandler" method="invoke">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class</url>
+          <line>321</line>
+          <properties class="sun.reflect.annotation.AnnotationInvocationHandler" method="readObject">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar!/org/apache/commons/collections/map/LazyMap.java</url>
+          <line>147</line>
+          <properties class="org.apache.commons.collections.map.LazyMap" method="get">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="sun.reflect.annotation.AnnotationInvocationHandler" memberName="type" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="in" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
