@@ -2,10 +2,11 @@
 package com.sec.cwm.base;
 
 import java.io.*;
+import java.util.Base64;
 
 public class simpleReadfile {
     public static void main(String[] args) throws IOException {
-        File file = new File("C:\\Users\\CWM\\IdeaProjects\\test\\src\\main\\java\\com\\sec\\cwm\\hackjava.class");
+        File file = new File("C:\\Users\\CWM\\IdeaProjects\\test\\src\\main\\java\\com\\sec\\cwm\\base\\HelloTempImpl.class");
 
         // 打开文件对象并创建文件输入流
         FileInputStream fis = new FileInputStream(file);
@@ -14,7 +15,7 @@ public class simpleReadfile {
         int a = 0;
 
         // 定义缓冲区大小
-        byte[] bytes = new byte[1024];
+        byte[] bytes = new byte[(int) file.length()];
 
         // 创建二进制输出流对象
         ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -26,6 +27,9 @@ public class simpleReadfile {
             out.write(bytes, 0, a);
         }
 
-        System.out.println(out.toString());
+//        System.out.println(out.toString());
+        final Base64.Encoder encoder = Base64.getEncoder();
+        String encodedText = encoder.encodeToString(bytes);
+        System.out.println(encodedText);
     }
 }

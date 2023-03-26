@@ -34,6 +34,7 @@ public class LazyMapChainTrans {
 
         // 使用LazyMap创建一个含有恶意调用链的Transformer类的Map对象
         Map outerMap = LazyMap.decorate(innnermap,transformedChain);
+        //outerMap.get(1);//get触发LazyMap
 
 //         transformedMap.put("v1", "v2");// 执行put也会触发transform
 

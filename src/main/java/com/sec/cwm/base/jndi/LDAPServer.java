@@ -1,11 +1,5 @@
 package com.sec.cwm.base.jndi;
 
-import java.net.InetAddress;
-import java.net.MalformedURLException;
-import java.net.URL;
-import javax.net.ServerSocketFactory;
-import javax.net.SocketFactory;
-import javax.net.ssl.SSLSocketFactory;
 import com.unboundid.ldap.listener.InMemoryDirectoryServer;
 import com.unboundid.ldap.listener.InMemoryDirectoryServerConfig;
 import com.unboundid.ldap.listener.InMemoryListenerConfig;
@@ -15,6 +9,13 @@ import com.unboundid.ldap.sdk.Entry;
 import com.unboundid.ldap.sdk.LDAPException;
 import com.unboundid.ldap.sdk.LDAPResult;
 import com.unboundid.ldap.sdk.ResultCode;
+
+import javax.net.ServerSocketFactory;
+import javax.net.SocketFactory;
+import javax.net.ssl.SSLSocketFactory;
+import java.net.InetAddress;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class LDAPServer {
     private static final String LDAP_BASE = "dc=example,dc=com";

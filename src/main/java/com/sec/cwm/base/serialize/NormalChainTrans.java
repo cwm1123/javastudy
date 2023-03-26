@@ -10,7 +10,6 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.lang.annotation.Repeatable;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 import java.lang.reflect.Constructor;
@@ -58,7 +57,7 @@ public class NormalChainTrans {
             // Object instance = new AnnotationInvocationHandler(Target.class, transformedMap);
 //            Object instance = constructor.newInstance(Target.class, transformedMap);
 //            Object instance = constructor.newInstance(Retention.class, transformedMap);
-            Object instance = constructor.newInstance(Repeatable.class, transformedMap);
+            Object instance = constructor.newInstance(Retention.class, transformedMap);
 
             // 创建用于存储payload的二进制输出流对象
             ByteArrayOutputStream baos = new ByteArrayOutputStream();

