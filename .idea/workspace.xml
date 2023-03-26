@@ -9,13 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="tenth commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/Calc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/JNDIClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/LDAPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jndi/RMI_JNDI_Inject_Server.java" afterDir="false" />
+    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="eleventh commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/json/SimplJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/json/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Calc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <recent name="com.sec.cwm.base.serialize" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.JNDIClient">
+  <component name="RunManager" selected="应用程序.SimplJson">
     <configuration name="JNDIClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.JNDIClient" />
       <module name="test" />
@@ -123,21 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (3)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.NormalChainTrans" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.sec.cwm.base.serialize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RMI_JNDI_Inject_Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jndi.RMI_JNDI_Inject_Server" />
       <module name="test" />
@@ -151,8 +135,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimplJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.json.SimplJson" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sec.cwm.base.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="highJDK8ChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_211" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.highJDK8ChainTrans" />
       <module name="test" />
@@ -279,19 +276,19 @@
     <list>
       <item itemvalue="Maven.test" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.58" />
+      <item itemvalue="应用程序.SimplJson" />
       <item itemvalue="应用程序.JNDIClient" />
       <item itemvalue="应用程序.LDAPServer" />
       <item itemvalue="应用程序.RMI_JNDI_Inject_Server" />
       <item itemvalue="应用程序.highJDK8ChainTrans" />
-      <item itemvalue="应用程序.NormalChainTrans" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.SimplJson" />
+        <item itemvalue="应用程序.highJDK8ChainTrans" />
         <item itemvalue="应用程序.JNDIClient" />
         <item itemvalue="应用程序.LDAPServer" />
         <item itemvalue="应用程序.RMI_JNDI_Inject_Server" />
-        <item itemvalue="应用程序.highJDK8ChainTrans" />
-        <item itemvalue="应用程序.NormalChainTrans" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +327,16 @@
       <workItem from="1679187522466" duration="5644000" />
       <workItem from="1679287243317" duration="12770000" />
       <workItem from="1679366626222" duration="3803000" />
-      <workItem from="1679472217722" duration="969000" />
+      <workItem from="1679472217722" duration="1080000" />
+      <workItem from="1679547392610" duration="1301000" />
+      <workItem from="1679549918174" duration="1599000" />
+      <workItem from="1679571185850" duration="965000" />
+      <workItem from="1679579198394" duration="1331000" />
+      <workItem from="1679585214891" duration="1637000" />
+      <workItem from="1679637292901" duration="811000" />
+      <workItem from="1679645248444" duration="124000" />
+      <workItem from="1679645388994" duration="2815000" />
+      <workItem from="1679720025130" duration="1823000" />
     </task>
     <task id="LOCAL-00001" summary="seventh commit">
       <created>1670140717177</created>
@@ -367,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679222864664</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="eleventh commit">
+      <created>1679493588077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679493588077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +403,8 @@
     <MESSAGE value="eighth commit" />
     <MESSAGE value="nineth commit" />
     <MESSAGE value="tenth commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="tenth commit" />
+    <MESSAGE value="eleventh commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="eleventh commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,6 +458,21 @@
           <url>jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar!/org/apache/commons/collections/functors/InvokerTransformer.java</url>
           <line>118</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sec/cwm/base/json/SimplJson.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.24/fastjson-1.2.24.jar!/com/alibaba/fastjson/JSON.class</url>
+          <line>216</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.24/fastjson-1.2.24.jar!/com/alibaba/fastjson/JSON.class</url>
+          <line>219</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/annotation/AnnotationInvocationHandler.class</url>
