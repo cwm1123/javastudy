@@ -1,5 +1,6 @@
 package com.sec.cwm.base.rmi;
 
+import java.io.IOException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
@@ -10,6 +11,6 @@ public interface RMITestInterface extends Remote {
      *
      * @return 返回测试字符串
      */
-    String test() throws RemoteException;
+    String test() throws IOException;
 
 }

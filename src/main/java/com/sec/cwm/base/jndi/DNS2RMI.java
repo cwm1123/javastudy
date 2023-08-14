@@ -4,6 +4,7 @@ import javax.naming.Context;
 import javax.naming.NamingException;
 import javax.naming.directory.DirContext;
 import javax.naming.directory.InitialDirContext;
+import java.io.IOException;
 import java.rmi.RemoteException;
 import java.util.Hashtable;
 
@@ -40,6 +41,8 @@ public class DNS2RMI {
             e.printStackTrace();
         } catch (RemoteException e) {
             e.printStackTrace();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }
