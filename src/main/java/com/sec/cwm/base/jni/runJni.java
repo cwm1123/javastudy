@@ -15,7 +15,7 @@ public class runJni {
 //        jniLoadMethod.invoke(null,jniObj);
         System.load("/home/cwm/IdeaProjects/javastudy/src/main/java/com/sec/cwm/base/jni/libcmd.so");
         newJni newJni=new newJni();
-        String cmd=newJni.exec("whoami");
+        String cmd=newJni.exec("ls");
         System.out.println(cmd);
     }
 }

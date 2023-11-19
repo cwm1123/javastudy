@@ -9,22 +9,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="eleventh commit">
-      <change afterPath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/com_sec_cwm_base_jni_newJni.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/com_sec_cwm_base_jni_newJni.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/libcmd.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/newJni.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/newJni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/runJni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/libcmd.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/compile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="54a5b36d-e7ff-4cbb-ad5e-7acae3bba47c" name="变更" comment="add jni">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring1.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/memshell/tomcatshell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/ysoserial/Spring1withMemshell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/tomcatshell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/HelloTempImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/HelloTempImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/runJni.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/jni/runJni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/LazyMapChainTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/LazyMapChainTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/NormalChainTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/highJDK8ChainTrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/serialize/highJDK8ChainTrans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/ysoserial/CB1withoutCCforshiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sec/cwm/base/ysoserial/CB1withoutCCforshiro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HelloTempImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HelloTempImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/hackjava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testClassloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testClassloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader$ClassloaderB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testCrossClassloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testUrlClassloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/classloaders/testUrlClassloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/defineclass/testProxyDefineClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/defineclass/testProxyDefineClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/defineclass/testUnsafeDefineClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/defineclass/testUnsafeDefineClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNS2RMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNS2RMI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNSContextFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/DNSContextFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/JNDIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/JNDIClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/LDAPServer$OperationInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/LDAPServer$OperationInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/LDAPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/LDAPServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/RMI_JNDI_Inject_Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jndi/RMI_JNDI_Inject_Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jni/newJni.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jni/newJni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jni/runJni.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/jni/runJni.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/json/SimplJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/json/SimplJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/json/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/json/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/reflect/simpleReflect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/reflect/simpleReflect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/reflect/testCrossUnsafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/reflect/testCrossUnsafe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/reflect/testUnsafe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/reflect/testUnsafe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/RmiServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/RmiServerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/testVulnRmi$RMISSLClientSocketFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/testVulnRmi$RMISSLClientSocketFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/testVulnRmi$TrustAllSSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/testVulnRmi$TrustAllSSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/testVulnRmi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/testVulnRmi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/tetRmi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/rmi/tetRmi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/LazyMapChainTrans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/LazyMapChainTrans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/NormalChainTrans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/NormalChainTrans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/TempImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/TempImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/UnsafeChainTrans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/UnsafeChainTrans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/highJDK8ChainTrans.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/highJDK8ChainTrans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testDeserialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testDeserialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testExternalize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testExternalize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testInvokeTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testInvokeTransformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testReflectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/serialize/testReflectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/simpleReadfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/simpleReadfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/testclass/testURLClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/testclass/testURLClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CB1withoutCCforshiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CB1withoutCCforshiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CC3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CC3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CC4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CC4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CC5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CC5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CCwithoutTransformers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/CCwithoutTransformers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/URLDNS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/base/ysoserial/URLDNS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/classTransfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/classTransfer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/hackJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/hackJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sec/cwm/testUnsafeDefineClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sec/cwm/testUnsafeDefineClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/compile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/compile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +89,23 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cwm1123&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="85597b97-8d2e-4c00-b345-0081d89be324" />
+        <option name="url" value="https://github.com/cwm1123/javastudy.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/com/sec/cwm/base/classloaders/testClassloader.java" root0="FORCE_HIGHLIGHTING" />
@@ -83,28 +143,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/home/cwm/IdeaProjects/javastudy/src/main/java/com/sec/cwm/base",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "spring.configuration.checksum": "098f6bcd4621d373cade4e832627b4f6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cwm/桌面/ysoserial&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;098f6bcd4621d373cade4e832627b4f6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/sec/cwm/base" />
@@ -116,20 +177,13 @@
       <recent name="com.sec.cwm.base.ysoserial" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.runJni">
-    <configuration name="compile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="compile" />
-      <module name="test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="runJni" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.jni.runJni" />
+  <component name="RunManager" selected="应用程序.Spring1withMemshell">
+    <configuration name="CB1withoutCCforshiro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.ysoserial.CB1withoutCCforshiro" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.base.jni.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.ysoserial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.test" />
+    <configuration name="LazyMapChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.LazyMapChainTrans" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.serialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +204,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tetRmi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.rmi.tetRmi" />
+    <configuration name="NormalChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.NormalChainTrans" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sec.cwm.base.rmi.*" />
+          <option name="PATTERN" value="com.sec.cwm.base.serialize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring1withMemshell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.ysoserial.Spring1withMemshell" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sec.cwm.base.ysoserial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="highJDK8ChainTrans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sec.cwm.base.serialize.highJDK8ChainTrans" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sec.cwm.base.serialize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,28 +268,6 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="shiroexp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="com.sec.cwm.web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shiroexp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 9.0.58" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.58" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -302,16 +360,19 @@
     <list>
       <item itemvalue="Maven.test" />
       <item itemvalue="Tomcat 服务器.Tomcat 9.0.58" />
-      <item itemvalue="应用程序.compile" />
-      <item itemvalue="应用程序.runJni" />
-      <item itemvalue="应用程序.test" />
-      <item itemvalue="应用程序.tetRmi" />
+      <item itemvalue="应用程序.LazyMapChainTrans" />
+      <item itemvalue="应用程序.NormalChainTrans" />
+      <item itemvalue="应用程序.highJDK8ChainTrans" />
+      <item itemvalue="应用程序.CB1withoutCCforshiro" />
+      <item itemvalue="应用程序.Spring1withMemshell" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.runJni" />
-        <item itemvalue="应用程序.compile" />
-        <item itemvalue="应用程序.test" />
+        <item itemvalue="应用程序.Spring1withMemshell" />
+        <item itemvalue="应用程序.highJDK8ChainTrans" />
+        <item itemvalue="应用程序.LazyMapChainTrans" />
+        <item itemvalue="应用程序.NormalChainTrans" />
+        <item itemvalue="应用程序.CB1withoutCCforshiro" />
       </list>
     </recent_temporary>
   </component>
@@ -380,7 +441,18 @@
       <workItem from="1694758087758" duration="666000" />
       <workItem from="1694758879170" duration="88000" />
       <workItem from="1695116234690" duration="15000" />
-      <workItem from="1698060882572" duration="8372000" />
+      <workItem from="1698060882572" duration="8453000" />
+      <workItem from="1698480030257" duration="4000" />
+      <workItem from="1699946650780" duration="187000" />
+      <workItem from="1700122619265" duration="764000" />
+      <workItem from="1700154968824" duration="111000" />
+      <workItem from="1700155574741" duration="605000" />
+      <workItem from="1700157003565" duration="137000" />
+      <workItem from="1700321475141" duration="781000" />
+      <workItem from="1700322299714" duration="2896000" />
+      <workItem from="1700325618013" duration="1333000" />
+      <workItem from="1700327979283" duration="459000" />
+      <workItem from="1700329025283" duration="641000" />
     </task>
     <task id="LOCAL-00001" summary="seventh commit">
       <created>1670140717177</created>
@@ -396,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691079155885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add jni">
+      <option name="closed" value="true" />
+      <created>1698401424168</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698401424168</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +502,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="seventh commit" />
     <MESSAGE value="13th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="13th commit" />
+    <MESSAGE value="add jni" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jni" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
