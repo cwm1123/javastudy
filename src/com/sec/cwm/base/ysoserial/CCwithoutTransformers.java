@@ -75,12 +75,12 @@ public class CCwithoutTransformers {
 
         //序列化expMap对象
         ByteArrayOutputStream baos=new ByteArrayOutputStream();
-//        ObjectOutputStream oos=new ObjectOutputStream(baos);
-//        oos.writeObject(expMap);
-//        oos.close();
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("test.bin"));
+        ObjectOutputStream oos=new ObjectOutputStream(baos);
         oos.writeObject(expMap);
         oos.close();
+//        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("test.bin"));
+//        oos.writeObject(expMap);
+//        oos.close();
 
 //        ObjectInputStream ois=new ObjectInputStream(new ByteArrayInputStream(baos.toByteArray()));
 //        System.out.println(Base64.getEncoder().encodeToString(baos.toByteArray()));
